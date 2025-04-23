@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link rel="stylesheet" href="./styles-improved.css" />
+    <script src="app.js" defer type="module"></script>
+
+    <title>PHX5 Northdock</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="brand">
+          <img
+            src="./images/phx5-logo.png"
+            alt="Phoenix 5 logo"
+            class="brand-logo"
+          />
+          <p class="brand-text">PHX5 Northdock</p>
+        </div>
+
+        <nav class="navbar">
+          <ul class="nav-links">
+            <li class="nav-link"><a href="#">History</a></li>
+            <li class="nav-link"><a href="#">Statistics</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <h1 class="main-heading">Binsheet Generator</h1>
+        <p class="main-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic numquam
+          eligendi perferendis deserunt eius voluptatibus molestiae iure
+          provident consectetur labore.
+        </p>
+        <section class="input-content">
+          <input type="file" id="file-upload" accept="text/csv" hidden />
+          <div class="input-group">
+            <button class="upload-btn" data-region-info="West">West</button>
+            <button class="upload-btn" data-region-info="East">East</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="content"></div>
+      </footer>
+    </div>
+  </body>
+</html>
